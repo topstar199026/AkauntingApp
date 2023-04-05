@@ -1,0 +1,26 @@
+{
+    "alias": "helpdesk",
+    "icon": "checklist",
+    "version": "2.0.5",
+    "active": 1,
+    "providers": [
+        "Modules\\Helpdesk\\Providers\\Event",
+        "Modules\\Helpdesk\\Providers\\Main",
+        "Modules\\Helpdesk\\Providers\\Observer"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\Helpdesk\\Reports\\TicketSummary"
+    ],
+    "widgets": [
+        "Modules\\Helpdesk\\Widgets\\TicketsByCategory",
+        "Modules\\Helpdesk\\Widgets\\TicketsByStatus",
+        "Modules\\Helpdesk\\Widgets\\LatestTickets",
+        "Modules\\Helpdesk\\Widgets\\TopReporters",
+        "Modules\\Helpdesk\\Widgets\\TopAssignees"
+    ],
+    "settings": [],
+    "extra-modules": {}
+}

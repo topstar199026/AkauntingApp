@@ -1,0 +1,17 @@
+{
+    "alias": "time-to-get-paid",
+    "icon": "clock",
+    "version": "3.0.0",
+    "active": 1,
+    "providers": [
+        "Modules\\TimeToGetPaid\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\TimeToGetPaid\\Reports\\PaymentTimes"
+    ],
+    "widgets": [],
+    "settings": []
+}

@@ -1,0 +1,20 @@
+{
+    "alias": "aged-receivables-payables",
+    "icon": "fa fa-cog",
+    "version": "2.0.2",
+    "category": "report",
+    "active": 1,
+    "providers": [
+        "Modules\\AgedReceivablesPayables\\Providers\\Main",
+        "Modules\\AgedReceivablesPayables\\Providers\\Event"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\AgedReceivablesPayables\\Reports\\AgedReceivables",
+        "Modules\\AgedReceivablesPayables\\Reports\\AgedPayables"
+    ],
+    "widgets": [],
+    "settings": []
+}

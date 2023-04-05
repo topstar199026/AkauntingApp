@@ -1,0 +1,17 @@
+{
+    "name": "Receipt",
+    "alias": "receipt",
+    "version": "3.0.5",
+    "category": "import",
+    "active": 1,
+    "providers": [
+        "Modules\\Receipt\\Providers\\Main",
+        "Modules\\Receipt\\Providers\\Event"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [],
+    "settings": []
+}

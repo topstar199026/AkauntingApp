@@ -1,0 +1,19 @@
+{
+    "alias": "calendar",
+    "version": "3.0.5",
+    "category": "operation",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Calendar\\Providers\\Event",
+        "Modules\\Calendar\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "settings": [],
+    "widgets": [
+        "Modules\\Calendar\\Widgets\\Calendar"
+    ]
+}

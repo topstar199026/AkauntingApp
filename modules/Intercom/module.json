@@ -1,0 +1,54 @@
+{
+    "alias": "intercom",
+    "icon": "simple-icons-intercom",
+    "version": "3.0.0",
+    "setting_order": 903,
+    "active": 1,
+    "providers": [
+        "Modules\\Intercom\\Providers\\Event",
+        "Modules\\Intercom\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [],
+    "settings": [
+        {
+            "type": "text",
+            "name": "token",
+            "title": "intercom::general.token",
+            "attributes": {
+                "required": "required"
+            },
+            "rules": "required|string"
+        },
+        {
+            "type": "text",
+            "name": "admin_id",
+            "title": "intercom::general.admin_id",
+            "attributes": {
+                "required": "required"
+            },
+            "rules": "required|string"
+        },
+        {
+            "type": "toggle",
+            "name": "enable_inapp",
+            "title": "intercom::general.enable_inapp",
+            "enable": "general.yes",
+            "disable": "general.no",
+            "attributes": {},
+            "rules": "required|integer"
+        },
+        {
+            "type": "toggle",
+            "name": "enable_email",
+            "title": "intercom::general.enable_email",
+            "enable": "general.yes",
+            "disable": "general.no",
+            "attributes": {},
+            "rules": "required|integer"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+language: php
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+php:
+  - 7
+  - 7.1
+  - 7.2
+  - 7.3
+  - 7.4
+
+install:
+  - mkdir -p /home/travis/.phpenv/versions/$(phpenv version-name)/etc/conf.d
+  - composer install
+
+script: vendor/bin/phpunit

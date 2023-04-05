@@ -1,0 +1,46 @@
+<?php
+
+return [
+
+    'name'                          => 'Randevular',
+    'description'                   => '',
+
+    'appointment_name'              => 'Randevu Adı',
+    'appointment_duration'          => 'Randevu Süresi',
+    'before_schedule_appointment'   => 'Randevu Almadan Önce (Saat)',
+    'after_schedule_appointment'    => 'Randevu Aldıktan Sonra (Gün)',
+    'allow_cancelled'               => 'İzin Ver İptal Edildi',
+    'timezone'                      => 'Saat dilimi',
+    'reminders'                     => 'Hatırlatmalar',
+    'location'                      => 'Konum',
+    'assingment_method'             => 'Atama Yöntemi',
+    'week_day'                      => 'Hafta Günü',
+    'starting_hours'                => 'Başlangıç Saati',
+    'scheduling'                    => 'Planla',
+    'question_types'                => 'Soru Türleri',
+    'avaible_answer'                => 'Mevcut Cevap',
+    'required_answer'               => 'Gerekli Cevap',
+    'appointment_introduction'      => 'Randevu Tanıtımı',
+    'appointment_confirmation'      => 'Randevu Onayı',
+    'scheduled'                     => 'Planlandı',
+    'next'                          => 'Sonraki',
+    'back'                          => 'Geri',
+    'text'                          => 'Metin',
+    'select'                        => 'Seçiniz',
+    'appointments'                  => 'Randevu|Randevular',
+    'slots'                         => 'Yuva|Yuvaları',
+    'questions'                     => 'Soru|Sorular',
+    'messages'                      => 'Mesaj|Mesajlar',
+    'starting_time'                 => 'Başlangıç Zamanı',
+    'ending_time'                   => 'Bitiş Vakti',
+
+    'days' => [
+        'sunday'                    => 'Pazar',
+        'monday'                    => 'Pazartesi',
+        'tuesday'                   => 'Salı',
+        'wednesday'                 => 'Çarşamba',
+        'thursday'                  => 'Perşembe',
+        'friday'                    => 'Cuma',
+        'saturday'                  => 'Cumartesi',
+    ],
+];

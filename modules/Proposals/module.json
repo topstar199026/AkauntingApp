@@ -1,0 +1,17 @@
+{
+    "alias": "proposals",
+    "version": "3.0.2",
+    "icon": "fa fa-cog",
+    "active": 1,
+    "providers": [
+        "Modules\\Proposals\\Providers\\Event",
+        "Modules\\Proposals\\Providers\\Main",
+        "Modules\\Proposals\\Providers\\Observer"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [],
+    "settings": []
+}

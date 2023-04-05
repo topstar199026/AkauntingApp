@@ -1,0 +1,21 @@
+{
+    "alias": "budgets",
+    "icon": "wallet",
+    "version": "2.0.0",
+    "active": 1,
+    "providers": [
+        "Modules\\Budgets\\Providers\\Event",
+        "Modules\\Budgets\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\Budgets\\Reports\\BudgetVsActual"
+    ],
+    "widgets": [],
+    "settings": [],
+    "extra-modules": {
+        "double-entry": "required"
+    }
+}

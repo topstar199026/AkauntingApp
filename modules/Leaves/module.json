@@ -1,0 +1,22 @@
+{
+    "alias": "leaves",
+    "icon": "luggage",
+    "version": "2.0.3",
+    "active": 1,
+    "providers": [
+        "Modules\\Leaves\\Providers\\Event",
+        "Modules\\Leaves\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [
+        "Modules\\Leaves\\Widgets\\EntitlementDays",
+        "Modules\\Leaves\\Widgets\\TotalDaysAllowed"
+    ],
+    "settings": [],
+    "extra-modules": {
+        "employees": "required"
+    }
+}

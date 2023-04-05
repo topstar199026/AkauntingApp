@@ -1,0 +1,14 @@
+{
+    "alias": "mt940",
+    "version": "3.0.4",
+    "active": 1,
+    "providers": [
+        "Modules\\Mt940\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "settings": [],
+    "widgets": []
+}

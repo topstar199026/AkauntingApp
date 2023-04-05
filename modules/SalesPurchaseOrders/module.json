@@ -1,0 +1,21 @@
+{
+    "alias": "sales-purchase-orders",
+    "icon": "settings",
+    "version": "2.0.4",
+    "active": 1,
+    "providers": [
+        "Modules\\SalesPurchaseOrders\\Providers\\Event",
+        "Modules\\SalesPurchaseOrders\\Providers\\Main",
+        "Modules\\SalesPurchaseOrders\\Providers\\Observer",
+        "Modules\\SalesPurchaseOrders\\Providers\\ViewComposer"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\SalesPurchaseOrders\\Reports\\SalesOrderSummary",
+        "Modules\\SalesPurchaseOrders\\Reports\\PurchaseOrderSummary"
+    ],
+    "widgets": [],
+    "settings": []
+}
